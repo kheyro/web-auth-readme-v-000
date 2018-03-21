@@ -1280,3 +1280,48 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 00:51:22 -0500
+
+
+Started GET "/" for ::1 at 2018-03-21 09:53:22 +0100
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=1JILMDYKNQWZUU2C3V2LY3IK3NG2ITZ4KXEWNJH3BQW0YJHO&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-21 10:11:51 +0100
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=1JILMDYKNQWZUU2C3V2LY3IK3NG2ITZ4KXEWNJH3BQW0YJHO&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=O4JJQVXUK3W1JS2KV21TZZDGAHIWLXY3KMS3DNL5JGXGQA2G" for ::1 at 2018-03-21 10:11:55 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"O4JJQVXUK3W1JS2KV21TZZDGAHIWLXY3KMS3DNL5JGXGQA2G"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 601ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-03-21 10:11:56 +0100
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 416ms (Views: 414.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2018-03-21 10:11:56 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2018-03-21 10:11:56 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2018-03-21 10:11:56 +0100
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2018-03-21 10:11:56 +0100
+
+
+Started GET "/friends" for ::1 at 2018-03-21 10:12:06 +0100
+Processing by SearchesController#friends as HTML
+  Rendered searches/friends.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 219ms (Views: 26.3ms | ActiveRecord: 0.0ms)
